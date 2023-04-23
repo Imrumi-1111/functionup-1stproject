@@ -1,0 +1,15 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Disallow:
+
+
+export function Button () {
+
+
+    return (
+        <button>
+            Submit
+        </button>
+    )
+
+}
