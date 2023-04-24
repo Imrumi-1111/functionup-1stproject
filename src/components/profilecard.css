@@ -1,0 +1,16 @@
+
+
+
+.Profilecard{
+    background-color: #924ee0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 30;
+    padding: 20px;
+  
+  }
+  
