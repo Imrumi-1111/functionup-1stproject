@@ -28,9 +28,20 @@
 
 .Raju-img{
   height:300px;
+  border-radius: 50%;
+
+}
+.Shyam-img{
+  height:300px;
+  border-radius: 50%;
 
 }
 
+.Baburao-img{
+  height:300px;
+  border-radius: 50%;
+
+}
 
 
 @keyframes App-logo-spin {

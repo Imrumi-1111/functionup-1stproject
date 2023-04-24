@@ -26,7 +26,7 @@ function App() {
     <div className="App">
      
        <header className='App-header'> 
-       <img src={"./image/Raju.jpg"} className="Raju-img" alt="raju"/>
+       <img src={"./images/Raju.jpg"} className="Raju-img" alt="raju"/>
        <Profilecard 
        card1 ='Raju Srivastav'
        onClickFunction = {cardText}
@@ -34,14 +34,14 @@ function App() {
        designation={'UI/UX DESIGNER'} name={'Raju Srivastav'} job={ 'Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat'}/>
        
 
-       <img src="./image/Raju.jpg" className="Shyam-img" alt="shyam"/>
+       <img src="./images/ghanshyam.jpg" className="Shyam-img" alt="shyam"/>
        <Profilecard 
        card2 ='Shyam Tiwari'
        onClickFunction = {caRdtext}
        
        designation={'UI/UX DESIGNER'} name={'Shyam Tiwari'} job={ 'Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat'}/>
        
-       <img src="./image/Raju.jpg" className="Baburao-img" alt="baburao"/>
+       <img src="./images/baburao.jpg" className="Baburao-img" alt="baburao"/>
        <Profilecard 
        card3 ='Baburao Ganpatrao'
        onClickFunction = {carDtext}
