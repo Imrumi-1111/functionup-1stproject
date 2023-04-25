@@ -1,0 +1,22 @@
+.card{
+    border : 1px solid;
+    width : 500px;
+    height : 500px;
+    display : flex;
+    background-color: whitesmoke;
+    padding: 0;
+    border-bottom: 0;
+}
+
+.card h1 {
+    font-size: 30px;
+    align-content: center;
+    line-break: auto;
+}
+.card p {
+    font-size: 20px;
+    align-items: center;
+    line-break: auto;
+    
+
+}
