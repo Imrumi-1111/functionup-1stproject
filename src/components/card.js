@@ -1,5 +1,7 @@
 import React from 'react';
 import './card.css'
+//function App(){
+//<header className= 'App'>
 
 const ProductCard = ({ productDetail }) => {
 
@@ -11,7 +13,10 @@ const ProductCard = ({ productDetail }) => {
 
   return (
     <div className='card'>
-      <img src={productPic} alt={productName} />
+      <img src = {productPic} 
+      height = '200px'
+      width = 'auto'
+       />
       <div className="card-body">
         <h5 className="card-title">{Brand} {productName}</h5>
         <p className="card-text">{productDescription}</p>
@@ -22,5 +27,7 @@ const ProductCard = ({ productDetail }) => {
     </div>
   );
 }
+//</header>
 
-export default ProductCard;
+
+export default ProductCard ;

@@ -1,6 +1,8 @@
 import React from 'react';
 import ProductCard from './components/card';
 
+function App(){
+
 const productDetails = [
   {
     productId: '1',
@@ -41,5 +43,5 @@ const ProductList = () => {
     </div>
   );
 }
-
+}
 export default ProductList;
