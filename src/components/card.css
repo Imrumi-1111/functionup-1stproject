@@ -1,11 +1,11 @@
 .card{
     border : 1px solid;
     width : 500px;
-    height : 500px;
-    display : flex;
+    height : 700px;
+    display: flexbox;
     background-color: whitesmoke;
-    padding: 0;
-    border-bottom: 0;
+    padding: 100px;
+    border-bottom: 0px;
 }
 
 .card h1 {
@@ -13,10 +13,14 @@
     align-content: center;
     line-break: auto;
 }
-.card p {
+.productName {
     font-size: 20px;
     align-items: center;
     line-break: auto;
     
 
+}
+.productId{
+ font-size: 12px;
+ font-style: bold;
 }

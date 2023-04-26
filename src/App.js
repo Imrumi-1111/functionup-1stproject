@@ -1,13 +1,12 @@
-import logo from './logo.svg';
+//import logo from './logo.svg';
 import './App.css';
 import Productcard from './components/card';
 
-function App() {
+function App(){
+  
   const productDetails1 = {
     productId : '1',
-    
-    productPic : 'https://www.pexels.com/photo/close-up-of-rolex-9982475/' ,
-  
+    productPic : 'https://www.pexels.com/photo/silver-linked-bracelet-silver-and-black-round-chronograph-watch-190819/' ,
     productName : 'Watch',
     brand : 'Rolex',
     productDescription : 'Free to use, water proof',
@@ -17,7 +16,7 @@ function App() {
   }
   const productDetails2 = {
     productId : '2',
-    productPic : './images/watch2' ,
+    productPic : 'https://www.pexels.com/photo/close-up-photo-of-wristwatch-2113994/' ,
     productName : 'Watch',
     brand : 'Rolex',
     productDescription : 'Free to use, water proof',
@@ -27,7 +26,7 @@ function App() {
 }
 const productDetails3 = {
   productId : '3',
-  productPic : './images/watch3' ,
+  productPic : 'https://www.pexels.com/photo/analogue-blur-chrome-classic-280250/' ,
   productName : 'Watch',
   brand : 'Rolex',
   productDescription : 'Free to use, water proof',
@@ -37,7 +36,7 @@ const productDetails3 = {
 }
 const productDetails4 = {
   productId : '4',
-  productPic : './images/watch4' ,
+  productPic : 'https://www.pexels.com/photo/classic-clock-conceptual-hours-277390/' ,
   productName : 'Watch',
   brand : 'Rolex',
   productDescription : 'Free to use, water proof',
@@ -47,7 +46,7 @@ const productDetails4 = {
 }
 const productDetails5 = {
   productId : '5',
-  productPic : './images/watch5' ,
+  productPic : 'https://www.pexels.com/photo/black-apple-watch-with-black-sports-band-437037/' ,
   productName : 'Watch',
   brand : 'Rolex',
   productDescription : 'Free to use, water proof',
@@ -73,61 +72,29 @@ const buttonFourStyle = {
 const buttonFiveStyle = {
   background : 'pink'
 }
-
-
-
-  return (
-    <div className="App">
-      <header className="App-header">
-        
-        <Productcard
-        useInfo ={productDetails1}
-        buttonStyle = {buttonOneStyle}
-        />
-        <br/>
-
-
-
-
-        <Productcard
-        useInfo ={productDetails2}
-        buttonStyle = {buttonTwoStyle}
-        />
-        <br/>
-
-
-
-
-
-        <Productcard
-        useInfo ={productDetails3}
-        buttonStyle = {buttonThreeStyle}
-        />
-        <br/>
-
-
-
-
-
-        <Productcard
-        useInfo ={productDetails4}
-        buttonStyle = {buttonFourStyle}
-        />
-        <br/>
-
-
-
-
-
-        <Productcard
-        useInfo ={productDetails5}
-        buttonStyle = {buttonFiveStyle}
-        />
-
-      </header>
-    </div>
+return(
+  <div className="App">
+  
+  <Productcard
+  useInfo={productDetails1}
+  buttonstyle={buttonOneStyle}/>
+  
+  <Productcard
+  useInfo={productDetails2}
+  buttonstyle={buttonTwoStyle}/>
+  
+  <Productcard
+  useInfo={productDetails3}
+  buttonstyle={buttonThreeStyle}/>
+  
+  <Productcard
+  useInfo={productDetails4}
+  buttonstyle={buttonFourStyle}/>
+  
+  <Productcard
+  useInfo={productDetails5}
+  buttonstyle={buttonFiveStyle}/>
+  </div>
   );
-}
-
-
-export default App;
+ }
+  export default App;
