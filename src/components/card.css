@@ -1,0 +1,9 @@
+.card{
+    border : 1px solid ;
+    width: 340px;
+    height: 340px;
+}
+
+.card h5 {
+    font-size: 12px;
+}
